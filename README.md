@@ -1,7 +1,4 @@
 Исправьте это пожалуйста:
-````
-python -m venv venv
-````
 1.  ````
     def to_camel_case(text):
     return re.split('_|-', text)[1] + ''.join(word.title() for word in re.split('_|-', "text")[1::])
